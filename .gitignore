@@ -1,0 +1,27 @@
+# --- Secrets: never commit real credentials ---
+.env
+.env.*
+!.env.example
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+.python-version
+
+# --- Chainlit ---
+.chainlit/
+.files/
+
+# --- OS / editor ---
+.DS_Store
+.idea/
+.vscode/
+*.swp
+
+# --- Local data / caches ---
+.cache/
+*.log
