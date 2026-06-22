@@ -1,0 +1,21 @@
+# Pinned for reproducible Docker builds. Verified to resolve and import
+# together on Python 3.11. Regenerate after intentional upgrades.
+
+# Orchestration (LangChain 1.x line)
+langchain==1.3.10
+langchain-openai==1.3.2
+langchain-qdrant==1.1.0
+langchain-text-splitters==1.1.2
+langgraph==1.2.6
+
+# Vector store client
+qdrant-client==1.18.0
+
+# PDF loading
+pypdf==6.13.3
+
+# UI
+chainlit==2.11.1
+
+# Config
+pydantic-settings==2.14.2
